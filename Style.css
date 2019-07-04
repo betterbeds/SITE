@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+		<style>
+		 
+ 
+		
+		body { margin:0;  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; text-decoration: none; }  
+	
+		html {box-sizing: border-box; position: relative; top: } *, *:before, *:after { box-sizing: inherit; z-index: 0; border: 0px solid blue;  padding: 0px;}
+		nav {transform: translateY(-125px); border: 0px solid}
+		nav ul {center;list-style: none; float: right; padding-right: 10px; center; list-style: none; font-size: 1.3em;  border:1px solid white;}
+		nav ul li {text-align: center; position: relative; top: px; display: inline-block; border: 0px solid; padding-bottom: 4px;}
+		nav ul li a {text-align: center; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; text-decoration: none; color: gray; margin: 0px; padding-left: 25px; padding-top: 0px; padding-bottom: 5px; padding-right: 25px;}
+		nav ul li a:after {content: ""; display: inline-block; position: absolute; left: 0px; bottom: 0px; background-color: #A0B1CF; width: 0px; height: 3px; transition: all 0.4s; }
+		nav ul li a:hover {color: #A0B1CF ; }
+		nav ul li a:hover:after { width: 100%;}
+		
+		div.sticky {
+  		position: -webkit-sticky;  position: sticky;  top: 0;  background-color: white;  padding: 0px; z-index: 10; height: 120px;}
+		.logo {float: left;}
+		
+		.hours {position: relative; top: 15px; color: gray; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+		
+		
+		#banner{position: relative; top: 20px;}
+		.center {opacity: .8; width: 100%; max-height: 500px;object-fit: cover; position: relative; top: -90px}
+		.map {display: block; justify-content: center}
+
+		
+		.footer {background: #808080; position: relative; top: 10px; bottom: 00px; height: 200px; width: 100%; background-color: gray; color: white; text-align: center;
+}
+		#compyright {text-align: center; position: relative; bottom: -50px}
+	/*
+		.best{text-shadow: 2px 2px black; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color:#406E98;  background-color: rgb(225,225,225, .0); float: right;height: auto; width: 100%; letter-spacing: 1px; text-align: center; font-size: 55px; padding-bottom: 80px; padding-top: 80px; z-index: 100; position: relative; top: -600px; border: 0px solid black;} 
+		
+		.bbitb {width: 100%;height: auto;z-index: 101;position: relative; top:-529px;} */
+		.socal {position: relative; transform: translateY(50px)}
