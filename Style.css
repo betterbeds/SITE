@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-		<style>
+		
 		 
  
 		
 		body { margin:0;  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; text-decoration: none; }  
 	
-		html {box-sizing: border-box; position: relative; top: } *, *:before, *:after { box-sizing: inherit; z-index: 0; border: 0px solid blue;  padding: 0px;}
+		html {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; text-decoration: none; }   box-sizing: border-box; position: relative; top: } *, *:before, *:after { box-sizing: inherit; z-index: 0; border: 0px solid blue;  padding: 0px;}
 		nav {transform: translateY(-125px); border: 0px solid}
 		nav ul {center;list-style: none; float: right; padding-right: 10px; center; list-style: none; font-size: 1.3em;  border:1px solid white;}
 		nav ul li {text-align: center; position: relative; top: px; display: inline-block; border: 0px solid; padding-bottom: 4px;}
