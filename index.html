@@ -1,26 +1,366 @@
 <html>
 	<head>
-			<link rel="stylesheet" type="text/css" href="Style.css">
+		
+		<link rel="stylesheet" type="text/css" href="Style.css"> 
+
+
+
 			<div class="sticky">
-				<body>
+				
+		
+				<style>
 					
-					<ul id="menu">
-	<li><a href="#">item 1</a></li>
-	<li><a href="#">item 2</a></li>
-	<li><a href="#">item 3</a></li>
-	<li><a href="#">item 4</a></li>
+					
+						
+	/*fa bar style start*/
+	.bg-cover {
+	z-index: 30;
+		position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 0;
+	transition: all 350ms ease;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.prompt {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	line-size: 23px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; text-decoration: none; 
+	color: #666;
+}
+
+	@media screen and (min-width: 1060px) {
+  a:not(:first-child) {display: none;}
+		.reveal}
+  
+.reveal {
+	{display: none;}
+	
+	opacity: .85;
+	display: block;
+	pointer-events: auto;
+	visibility: visible;
+}
+
+.hamburger-shell {
+	margin: 0;
+	z-index: 31;
+	position: fixed;
+	overflow: hidden;
+	width: 70px;
+	height: 100px;
+	overflow: auto;
+	left: calc(100% - 100px);
+	top: 20px;
+}
+
+.top, .middle{
+	position: absolute;
+	width: 62px;
+	height: 10px;
+	background-color: black;
+	transition: all 350ms ease-in-out;
+	top: 20px;
+}
+
+.middle {
+	top: 40px;
+}
+
+#menu {
+	z-index: 32;
+	background-color: white;
+	position: fixed;
+	left: calc(100% - 292px);
+	top: 10px;
+	color: black;
+	display: none;
+	margin: 120px 30px;
+	text-decoration: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; text-decoration: none; 
+	font-weight: 100;
+	font-size: 23px;
+	text-transform: uppercase;
+	color: #333;
+	padding: 24px;
+	width: 200px;
+	text-align: right;
+}
+
+#menu a li {
+	text-decoration: none!important;
+	padding-bottom: 10px;
+	margin-bottom: 12px;
+	border-bottom: 1px solid black;
+	list-style: none;
+	color: #555;
+	transition: all 150ms ease;
+}
+
+#menu a li:hover {
+	color: #00abff;
+	padding-right: 3px;
+}
+
+#menu a li:hover:after {
+}
+
+
+
+#menu a {
+	text-decoration: none;
+}
+
+.rotate {
+	transform: rotate(225deg);
+	-webkit-transform: rotate(225deg);
+	top: 30px;
+	background-color: #B42323;
+	height: 2px;
+}
+
+.rotate-back {
+	transform: rotate(-225deg);
+	-webkit-transform: rotate(-225deg);
+	top: 30px;
+	background-color: #B42323;
+	height: 2px;
+}
+
+.top {
+-webkit-animation-delay: 100ms;
+}
+
+.middle {
+-webkit-animation-delay: 250ms;
+}
+
+.bottom {
+	-webkit-animation-delay: 400ms;
+}
+
+.menu-name {
+	font-family: Verdana;
+	font-weight: 900;
+	color: black;
+	font-size: 19.5px;
+	text-decoration: none;
+	position: absolute;
+	top: 56px;
+	left: -1px;
+	transition: all 350ms;
+}
+
+.bump {
+	top: 64px;
+	color: #B42323;
+}
+
+.responsive-box {
+	background-color: #ddd;
+	margin: 2%;
+	float: left;
+}
+
+.box-1 {
+	width: 96%;
+	height: 300px;
+}
+
+.box-2, .box-3, .box-4 {
+	width: 29.333%;
+	height: 140px;
+}
+
+.box-5 {
+	width: 62.666%;
+	height: 492px;
+}
+
+.header {
+	width: 100%;
+	height: 120px;
+}
+
+.par-1, .par-2, .par-3 {
+	width: 70%;
+	margin: 1% 2%;
+	background-color: #888;
+	height: 16px;
+	float: left;
+}
+
+.par-2 {
+	width: 56%;
+}
+
+.par-3 {
+	width: 64%;
+}
+		
+	/*fa bar style End*/
+					
+					
+
+	
+	@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+
+		
+
+		
+		body { margin:0;  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; text-decoration: none; }  
+	
+		html {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; text-decoration: none; }   box-sizing: border-box; position: relative; top: } *, *:before, *:after { box-sizing: inherit; z-index: 0; border: 0px solid blue;  padding: 0px;}
+		
+					.header {}
+					
+			@media screen and (max-width: 1060px) {
+  nav:not(:first-child) {display: none;}
+		.nav}		
+					
+					
+	nav {transform: translate(0px, -50px); border: 0px solid}
+	
+	nav ul {center;list-style: none; float: right; padding-right: 10px; center; list-style: none; font-size: 1.3em;  border:1px solid white;}
+	
+	nav ul li {text-align: center; position: relative; top: px; display: inline-block; border: 0px solid; padding-bottom: 4px;}
+	
+	nav ul li a {text-align: center; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; text-decoration: none; color: gray; margin: 0px; padding-left: 25px; padding-top: 0px; padding-bottom: 5px; padding-right: 25px;}
+	
+	nav ul li a:after {content: ""; display: inline-block; position: absolute; left: 0px; bottom: 0px; background-color: #A0B1CF; width: 0px; height: 3px; transition: all 0.4s; }
+	
+	nav ul li a:hover {color: #A0B1CF ; }
+	
+	nav ul li a:hover:after { width: 100%;}
+		
+	
+	.logo {float: left;}
+		
+	.hours {position: relative; top: 14px; color: gray; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+		
+		
+	#banner{position: relative; top: 20px;}
+	
+	.center {opacity: .8; width: 100%; max-height: 500px;object-fit: cover; position: relative; top: -90px}
+	
+			@media screen and (min-width: 1060px) {
+  .map:not(:first-child) {display: none;}
+		.map}		
+					
+	.map { display: inline-block; justify-content: center}
+
+		
+	.footer {background: #808080; position: relative; top: 10px; bottom: 00px; height: 200px; width: 100%; background-color: gray; color: white; text-align: center;
+}
+	#compyright {text-align: center; position: relative; bottom: -50px}
+	/*
+		.best{text-shadow: 2px 2px black; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color:#406E98;  background-color: rgb(225,225,225, .0); float: right;height: auto; width: 100%; letter-spacing: 1px; text-align: center; font-size: 55px; padding-bottom: 80px; padding-top: 80px; z-index: 100; position: relative; top: -600px; border: 0px solid black;} 
+		
+		.bbitb {width: 100%;height: auto;z-index: 101;position: relative; top:-529px;} */
+		.socal {position: relative; transform: translateY(50px)}
+
+	
+	
+	
+	
+	
+	
+	
+
+}
+    </style>
+	<body>			
+				
+				<!-- fa bar start-->
+	<body translate="no">
+<div class="bg-cover"></div>
+
+<a class="hamburger-shell">
+<div class="hamb top"></div>
+<div class="hamb middle"></div>
+<div class="menu-name">MENU</div>
+</a><ul id="menu" style="display: none;"><a class="hamburger-shell">
+</a><a href="#"> <li>Home</li></a>
+<a href="#"> <li>Portfolio</li></a>
+<a href="#"> <li>About Us</li></a>
+<a href="#"> <li>Locations</li></a>
+<a href="#"> <li>Contact</li></a>
 </ul>
+<!-- fa bar end-->
+				
+		<!-- start fa bar js-->
+		<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script id="rendered-js">
+      //Click the hamburger menu to see the animation
+//You can click the X to close or click anywhere outside the menu
+
+$(document).ready(function () {
+  $('.hamburger-shell').click(function () {
+    $('#menu').slideToggle(300);
+    $('.top').toggleClass('rotate');
+    $('.middle').toggleClass('rotate-back');
+    $('.menu-name').toggleClass('bump');
+    $('.bg-cover').toggleClass('reveal');
+  });
+  $('.bg-cover').click(function () {
+    $('#menu').slideToggle(300);
+    $('.top').toggleClass('rotate');
+    $('.middle').toggleClass('rotate-back');
+    $('.menu-name').toggleClass('bump');
+    $('.bg-cover').toggleClass('reveal');
+  });
+});
+      //# sourceURL=pen.js
+    </script>
+				
+				
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+	
+	
+	
+	
+	
+
+		
+
+
+
+
 					
-					
+			<div class="header">
 	<img src="images/Petter Beds Business Card Crop.jpg" width="200" height="auto" alt="" class="logo">
 	<div class="hours">
-  <p style="color:black; font-size: 20px; line-height: 5px">LOMPOC 805-735-2728</p>b
-  <p style="line-height: 10px;" >MONDAY THROUGH FRIDAY: 10 AM - 6 PM</p>
+  <p style="color:black; font-size: 18px; line-height: 5px">LOMPOC 805-735-2728</p>
+  <p style="line-height: 10px;" >MONDAY - FRIDAY: 10 AM - 6 PM</p>
   <p style="line-height: 10px;" >SATURDAY: 9 AM - 5 PM</p>
   <p style="line-height: 10px;" >SUNDAY: 12 PM - 4 PM</p>
 		</div>
-		<div class"down">
-	<nav> 
+	
+
+		<nav> 
 	  <ul>
 		  <li>
 			   <a href onclick="topFunction()" id="myBtn" title="Go to top">Home</a> 
@@ -37,51 +377,73 @@
 		
 		</ul>	
 	</nav>
-		</div>
-	 </div>
+		
+		<br></br>
+	
+	
+
+
+	
+	
 	
 		<br></br>
 
 	<div id="banner">
 	
-			<img src="images/the best bedding in Lompoc.png" alt="Paris" class="center" style="position: relative; ">
-	<!-- <table class="best"; align="center"><td><h1> THE BEST BEDDING IN THE BUSINESS </h1></td></table> -->
+			<img src="images/the best bedding in the Lompoc.jpg" alt="Paris" class="center" style="position:>
+	<table class="best"; align="center"><td>
+	</table>
 	</div>
 		
 		<!-- brands -->
+	
 	<a style="position: relative; top: -150px; dispay:block;" name="s4"></a>
 	<table align="center">
   <tr>
 	  <th>
 		  <a href="Tempur.html" target="_self"><img src="images/Tempur-pedic/static1.squarespace.com.png" width="300" height="226" alt="Tempur-Pedic"/></a></th>
-    <th>
+  	  <th>
 		<a href="Selly.html" target="_self"><img src="images/Sealy/Sealy.png" width="300" height="226" alt="Sealy"/></a>
-	  </th>
+    </th>
     <th>
 		<a href="Sturns&Foster.html" target="_self"><img src="images/Sturns and foster/300x113_static1.squarespace.com.png" width="300" height="113" alt=""/></a>
-	  </th>
+    </th>
   </tr>
   <tr>
 	 <td>
 		<a href="Scott_Living.html" target="_self"><img src="images/Scott Living/Scott Living.png" width="300" height="auto" alt="Scott Living"/></a>
 	 </td>
 	 <td><a href="Restonics.html"><img src="images/Rostonic/restonic.png" width="300" height="auto" alt="Restonics"/></a>
-		 </td>
+    </td>
 		<td><img src="images/Bedgear/static1.squarespace.com.png" width="300" height="auto" alt=""/></td>
  </tr>
 </table>
 
-	<!-- Map stuff --><div></div>
+	
+																								   <!-- Map stuff -->
+
 <div style="border: 0px solid">
-	<div class="map"; style="border: 0px solid blue";>
- <table align="center">
-  <tr><th><a name="s3" style="text-align:center;">Lompoc Location</a></th></tr>
-	 <tr>
-    <th> <img src="images/Lompoc_Storefront.jpg" width="500px" alt="Lompoc_Storefront" style="padding-right: 50px">
-</th>
-    <th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1380.3664234168466!2d-120.46041828558224!3d34.63951910465105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ec1eeb4fba577f%3A0xe4f345daaf431244!2s201+W+Ocean+Ave%2C+Lompoc%2C+CA+93436!5e0!3m2!1sen!2sus!4v1557039819892!5m2!1sen!2sus" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></th>
-  </tr>
-</table>
+							  
+<div class="map"; style="border: 1px solid blue">
+	 <table class="map"; align="center">
+ 	 <tr>
+		<th>
+			<a name="s3" style="text-align:center;">Lompoc Location</a>
+		</th>
+	</tr>
+	
+	<tr>
+    	<th> <img src="images/Lompoc_Storefront.jpg" width="500px" alt="Lompoc_Storefront" style="padding-right: 50px">
+		</th>
+    	
+		<th>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1380.3664234168466!2d-120.46041828558224!3d34.63951910465105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ec1eeb4fba577f%3A0xe4f345daaf431244!2s201+W+Ocean+Ave%2C+Lompoc%2C+CA+93436!5e0!3m2!1sen!2sus!4v1557039819892!5m2!1sen!2sus" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</th>
+		
+	  </tr>
+	</table>
+</div>
+</div>
 		<a name="s5"></a>
 		<div class="footer">
 <div class="socal">  
@@ -91,21 +453,29 @@
 <p id="compyright";>© 2019 Better Beds & Furniture® - web site by caseyfera.com</p>
 </div>	
 </div>
-			
-			
-			
-			<script src="jquery-1.11.3.min.js"></script>
-			<script scr="jquery.silcknav.js"</script>		
 			<script>
-	$(function(){
-		$('#menu').slicknav();
-	});
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 </script>
-			 <script src= 
+						  
+						 <!-- END MAPT STUFF--> 
+						  
+
+			
+
+		    <script src= 
 "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
 	</script> 
 	
-	<!-- Script to change opacity when scrolling the web page -->
+	
+																  
+																  <!-- Script to change opacity when scrolling the web page -->
 	<script> 
 		$(document).ready(function(){ 
 			$(window).scroll(function(){ 
@@ -113,6 +483,9 @@
 			}) 
 		}) 
 	</script> 
+			
+			
+
 			
 			
 			</body>
