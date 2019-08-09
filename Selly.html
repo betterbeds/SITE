@@ -1,35 +1,107 @@
 <html>
 	<head>
-	<link rel="stylesheet" type="text/css" href="Style.css">
-			</head>
-		<div class="sticky">
-	<img src="images/Petter Beds Business Card Crop.jpg" width="200" height="auto" alt="" class="logo">
+		
+		<link rel="stylesheet" type="text/css" href="Style.css"> 
+
+
+
+			<div class="sticky">
+				
+		
+			
+	<body>			
+			<!-- fa bar start-->
+	<body translate="no">
+<div class="bg-cover"></div>
+
+<a class="hamburger-shell">
+<div class="hamb top"></div>
+<div class="hamb middle"></div>
+<div class="menu-name">MENU</div>
+</a><ul id="menu" style="display: none;"><a class="hamburger-shell">
+</a><a href="index.html"> <li>Home</li></a>
+<a href="index.html#s3"> <li>Location</li></a>
+<a href="index.html#s4"> <li>Brand</li></a>
+<a href="index.html#s5"> <li>Social</li></a>
+</ul>
+<!-- fa bar end-->
+	
+	
+	
+	
+
+
+<!-- start fa bar js-->
+		<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script id="rendered-js">
+      //Click the hamburger menu to see the animation
+//You can click the X to close or click anywhere outside the menu
+
+$(document).ready(function () {
+  $('.hamburger-shell').click(function () {
+    $('#menu').slideToggle(300);
+    $('.top').toggleClass('rotate');
+    $('.middle').toggleClass('rotate-back');
+    $('.menu-name').toggleClass('bump');
+    $('.bg-cover').toggleClass('reveal');
+  });
+  $('.bg-cover').click(function () {
+    $('#menu').slideToggle(300);
+    $('.top').toggleClass('rotate');
+    $('.middle').toggleClass('rotate-back');
+    $('.menu-name').toggleClass('bump');
+    $('.bg-cover').toggleClass('reveal');
+  });
+});
+      //# sourceURL=pen.js
+    </script>
+
+		<!-- end topnav html-->	
+			
+	
+	
+	
+	
+	
+
+		
+
+
+
+
+					
+			<div class="header">
+	<img src="images/Petter Beds Business Card Crop.jpg" width="200" height="auto" alt="Logo" class="logo">
 	<div class="hours">
-  <p style="color:black; font-size: 20px; line-height: 5px">LOMPOC 805-735-2728</p>
-  <p style="line-height: 10px;" >MONDAY THROUGH FRIDAY: 10 AM - 6 PM</p>
+  <p style="color:black; font-size: 18px; line-height: 5px">LOMPOC 805-735-2728</p>
+  <p style="line-height: 10px;" >MONDAY - FRIDAY: 10 AM - 6 PM</p>
   <p style="line-height: 10px;" >SATURDAY: 9 AM - 5 PM</p>
   <p style="line-height: 10px;" >SUNDAY: 12 PM - 4 PM</p>
-	  </div>
-		<div class"down">
-	<nav> 
+		</div>
+	
+
+		<nav> 
 	  <ul>
 		  <li>
-			  <a href="index.html" id="myBtn" title="index">Home</a> 
-	    </li>
+			   <a href onclick="topFunction()" id="myBtn" title="Go to top">Home</a> 
+		    </li>
 			 <li>
-		 <a href="index.html#s3">Location</a>
+		 <a href="#s3">Location</a>
 		 </li>
 		 <li>
-		 	<a href="index.html#s4">Brands</a>
+		 	<a href="#s4">Brands</a>
 		 </li>
 		 <li>
-		 	<a href="index.html#s5">Social</a>
+		 	<a href="#s5">Social</a>
 		 </li>	
-		  </ul>	
+		
+		</ul>	
 	</nav>
-	  </div>
-    </div>
+		
 		<br></br>
+		
+		
 		<!-- brands -->
 	<a style="position: relative; top: -150px; dispay:block;" name="s4"></a>
 <div style"background-color: black;" ></a>
@@ -38,7 +110,7 @@
 <table style="width: 100%">
 	<tr>
 		<center>
-			<th style="width:100%"><img src="images/Sealy/Sealy.png" width="300" height="226" alt=""/>
+			<th style="width:100%"  text align="center"><img src="images/Sealy/Sealy.png" width="300" height="226" alt=""/>
 			</th>
 		</center></tr>
 	</table>
