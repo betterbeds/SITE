@@ -1,4 +1,4 @@
-	.footer {background: #808080; position: relative; top: 10px; bottom: 00px; height: 200px; width: 100%; background-color: gray; color: white; text-align: center;}		
+poop		
 
 			.imgsize {
   width: 100%;
@@ -66,6 +66,13 @@
 .middle {
 	top: 40px;
 }
+
+
+
+@media screen and (min-width: 1060px) {
+  #menu a li :not(:first-child) {display: none;}
+		#menu a li}
+  
 
 #menu {
 	z-index: 32;
